@@ -1,0 +1,524 @@
+*{
+    margin:0;
+    padding:0;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#search{
+    color:white;
+}
+.logo{
+    margin-left:20px;
+}
+#navbar{
+    height:65px;
+    background-color: black;
+    color:white;
+}
+
+#home{
+    margin-left:200px;
+    margin-bottom:10px;
+}
+label,b{
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-left:10px;
+    
+}
+#aboutus{
+    margin-right:30px;
+}
+a{
+    text-decoration: none;
+    margin-top:20px;
+    
+}
+.top{
+    margin:100px;
+}
+.places{
+    height:30px;
+    width: 250px;
+    color:black;
+    margin:5px;
+    padding-left:5px;
+    border-radius: 3px;
+}
+button{
+    width:63px;
+    text-align: center;
+    height:35px;
+    margin-top:8px;
+    color:black;
+    background-color: white;
+    padding:3px;
+    border-radius: 10px;
+}
+.signout{
+    width:63px;
+    text-align: center;
+    height:40px;
+    margin-top:8px;
+    color:black;
+    background-color: white;
+    padding:3px;
+    border-radius: 5px;
+}
+
+.signin{
+    margin-left:35px;
+    margin-right:15px;
+    border:none;
+}
+.grid{
+    height: 620px;
+    background-color:beige;
+}
+h1{
+    color:black;
+    text-align: center;
+    padding-top:140px;
+    font-size:50px;
+    display: block;
+    flex-wrap: wrap;
+}
+p{
+    color:black;
+    text-align: center;
+    padding-top:5px;
+    margin-top:2px;
+    font-size: 18px;
+}
+.button{
+    background-color:brown;
+    padding:12px;
+    margin-left:620px;
+    border-radius:10px ;
+    margin-right:10px;
+    box-shadow: 0 8px 6px 0 black;
+    display: inline;
+    color:antiquewhite;
+    transition:background 0.5s;
+}
+.button:hover{
+    background:black;
+    border-radius: 0;
+}
+
+.rent{
+    background-color:brown;
+    padding:12px;
+    margin-left:25px;
+    border-radius:10px ;
+    margin-right:10px;
+    box-shadow: 0 8px 6px 0 black;
+    display: inline;
+    color:antiquewhite;
+    transition:background 0.5s;
+}
+.rent1{
+    width: 10px;
+    background-color:orange;
+    padding:12px;
+    margin-left:46%;
+    border-radius:10px ;
+    margin-right:10px;
+    box-shadow: 0 8px 6px 0 black;
+    display: inline;
+    color:antiquewhite;
+}
+.rent:hover{
+    background:black;
+    border-radius: 0;
+}
+.quote{
+    color: black;
+    text-align:center;
+}
+.title{
+    text-align:center;
+    margin:0 auto 50px;
+    position:relative;
+    line-height: 60px;
+    color:#555;
+    font-size:20px ;
+}
+.title::after{
+   content:'';
+   background:black;
+   width:70px;
+   height:3px;
+   border-radius: 2px;
+   position:absolute;
+   bottom:12px;
+   left:50%;
+   transform:translateX(-50%);
+}
+h4{
+    font-weight: normal;
+    color:#555;
+}
+.col-4 p{
+    font-size: 14px;
+}
+.col-4 .city{
+    min-width: 100%;
+    height:270px;
+    display: inline;
+    margin-left:110px;
+    margin-right:120px;
+    padding:3px;
+    font-size: 30px;
+    border:solid 4px green;
+    
+}
+.col-4 .city1{
+    min-width: 100%;
+    height:270px;
+    display: inline;
+    margin-left:110px;
+    margin-right:120px;
+    padding:3px;
+    font-size: 30px;
+    border:solid 4px red;
+    
+}
+.state{
+    color:red;
+    margin-left: 20px;
+    font-size:20px;
+}
+.explore{
+    color:gray
+}
+.city{
+    background-color:none;
+    padding:12px;
+    margin-left:20px;
+    margin-right:10px;
+    display: inline;
+    color:black;
+    transition:background 0.5s;
+}
+.city:hover{
+    background:green;
+    border-radius: 0;
+    color:pink;
+}
+.col-4 .city1{
+    min-width: 100%;
+    height:270px;
+    display: inline;
+    margin-left:110px;
+    margin-right:120px;
+    padding:3px;
+    font-size: 30px;
+    border:solid 4px red;
+    
+}
+.state{
+    color:red;
+    margin-left: 20px;
+    font-size:20px;
+}
+.explore{
+    color:gray;
+    margin-left: 30px;
+}
+.mob1{
+    color:black;
+    background-color: red;
+    display: none;
+}
+.city1{
+    background-color:none;
+    padding:12px;
+    margin-left:20px;
+    margin-right:10px;
+    display: inline;
+    color:black;
+    transition:background 0.5s;
+}
+.city1:hover{
+    background:red;
+    border-radius: 0;
+    color:pink;
+}
+#box{
+    margin-left:230px;
+    margin-right:5px;
+    margin-top: 10px;
+    width: 300px;
+    height:35px;
+    color:black;
+    padding-left:2px;
+}
+.box{
+    background-color:beige;
+    height:55px;
+}
+.detect{
+    color:black;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+.bang{
+    font-size: 35px;
+    border: solid green 2px;
+
+}
+.footer{
+    background: black;
+    color:#8a8a8a;
+    font-size: 18px;
+    padding:20px 10px 20px;
+    margin:0px;
+}
+.state{
+    font-family: 'Dancing Script', cursive;
+}
+#bang{
+    margin-right:48px;
+}
+#mysore{
+    margin-right:138px;
+}
+#udupi{
+    margin-right:143px;
+}
+#indore{
+    margin-right:105px;
+}
+#bhopal{
+    margin-right:140px;
+}
+#gwalior{
+    margin-right:125px;
+}
+.ratings{
+    height:120px;
+    color:white;
+    display: inline;
+    padding-left: 30px;
+    margin-top:100px;
+}
+.column{
+    background-color: black;
+    margin-left:10px;
+    color:white;
+    width:900px;
+    height:120px;
+    border-radius: 20px;
+}
+.name{
+    padding-left: 30px;
+    padding-top: 10px;
+    text-decoration:underline;
+    color: yellow;
+}
+span{
+    padding-left: 30px;
+}
+
+.ratings1{
+    height:120px;
+    color:white;
+    display: inline;
+    padding-right: 30px;
+    margin-top:100px;
+    
+}
+#like{
+    padding-left: 30px;
+    color:orange;
+}
+#like1{
+    padding-left: 0;
+    color:orange;
+}
+.column1{
+    background-color: gray;
+    padding-left:30px;
+    padding-top: 10px;
+    color:white;
+    width:900px;
+    height:110px;
+    margin-left:520px;
+    border-radius: 20px;
+}
+#like2{
+    
+    color:orange;
+}
+#like3{
+    padding-left: 0;
+    color:orange;
+}
+.name1{
+    text-decoration: underline;
+    color: yellow;
+}
+span{
+    padding-left: 30px;
+}
+#down{
+    color:gray;
+    padding-top:3px;
+}
+
+.footer{
+    height: 250px;
+    background-color: black;
+}
+.footer1{
+    display: inline;
+    padding-left: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer2{
+    display: inline;
+    color:white;
+    padding-left: 10px;
+}
+.footer3{
+    display: inline;
+    color:gray;
+    padding-left: 10px;
+    font-size: 30px;
+}
+#btnsubmit{
+    background-color: red;
+    color:white;
+}
+.container{
+    max-width: 1300px;
+    margin:auto;
+    padding-left:25px;
+    padding-right: 25px;
+}
+.row1{
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer{
+    background: black;
+    color:#8a8a8a;
+    font-size: 18px;
+    padding:10px 10px 20px;
+    margin:0px;
+    
+}
+a .cart img{
+    background-color: white;
+}
+
+.footer-col-1{
+    padding-right:0px;
+    padding-bottom:30px;
+}
+.footer-col-3{
+    padding-right:10px;
+    padding-top:5px;
+    margin-top: 0px;
+    
+}
+.footer-col-3 h3{
+    padding-top:40px;
+}
+#txt1{
+    font-size: 13px;
+    
+
+}
+.footer-col-4{
+    padding-right:10px;
+    padding-top:5px;
+}
+#store{
+    color:gray;
+    padding-left: 20px;
+    display: inline;
+    color:white
+}
+#store1{
+    font-size: 30px;
+    color:#8a8a8a
+}
+#ddlselect{
+    color:black;
+    background-color: red;
+}
+#txt{
+    height: 100px;
+    width: 245px;
+    border-radius: 5px;
+    padding: 1px;
+    color:black;
+}
+.footer-col-5{
+    background-color:#8a8a8a;
+}
+
+.photo{
+    height:40px;
+    width: 40px;
+    color: black;
+    border-radius: 50%;
+}
+#kalaburagi{
+    margin-right:80px;
+}
+#hubulli{
+    margin-right:105px;
+}
+#hassan{
+    margin-right:145px;
+}
+#kannur{
+    margin-right:130px;
+}
+#kochi{
+    margin-right:135px;
+}
+#kollam{
+    margin-right:145px;
+}
+.desk1,.desk{
+    display: none;
+}
+#pay{    
+    margin-left: 48% ;
+    color: black;
+    background-color: orange;
+    height: 30px;
+    width:50px;
+    border: none;
+    border-radius: 10px;
+}
+@media only screen and (max-width:1300px){
+   .mob,.mob1,#navbar{
+    display: none;
+   }
+   .grid,.content,.content-1,.title,.row,.col-4{
+    display: none;
+   }
+   .column,.column1,.explore{
+    display: none;
+   }
+   .footer,.footer-col-5{
+    display: none;
+   }
+   .desk1,.desk{
+    display: block;
+    color: black;
+    margin-top: 25%;
+    margin-left: 10%;
+    font-size: larger;
+   
+}
+}
